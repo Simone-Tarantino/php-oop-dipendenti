@@ -19,7 +19,8 @@
 
     public function setId($_id)
     {
-      if (!is_int($_id)){
+      if (!is_int($_id))
+      {
         throw new Exception("Non è un numero valido"); 
       }
       $this->id = $_id;

@@ -1,4 +1,10 @@
 <?php
+  require_once 'classes/Dipendente.php';
+  require_once 'classes/Responsabile.php';
+  require_once 'classes/Contratto.php';
+
+  
+
   //modello
 
   //dipendente
@@ -17,9 +23,6 @@
       // __construct($_nome, $_cognome, $_contratto)
         //parent::__construct($_nome, $_cognome, $_contratto)
 
-    //dirigente extend dipendente
-    // __construct($_nome, $_cognome, $_contratto)
-      //parent::__construct($_nome, $_cognome, $_contratto)
 
   //contratto
     //private $id
@@ -28,3 +31,5 @@
     //private $dataInizio
     //private $dataFine
     //private $durata
+
+

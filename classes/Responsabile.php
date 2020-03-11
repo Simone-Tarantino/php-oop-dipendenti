@@ -12,9 +12,10 @@
 
         public function setId($_id)
         {
-            if (!is_int($_id)){
+            if (!is_int($_id))
+            {
             throw new Exception("Non è un numero valido"); 
-        }
+            }
         $this->id = $_id;
         }
 
@@ -45,9 +46,10 @@
 
         public function setDateBirth($_dataDiNascita)
         {
-            if (strlen($_dataDiNascita)!== 10){
-            throw new Exception("Formato data non valido (es. 01/01/1900)");
-        }
+            if (strlen($_dataDiNascita)!== 10)
+            {
+                throw new Exception("Formato data non valido (es. 01/01/1900)");
+            }
         $this->dataDiNascita = $_dataDiNascita;
         }
 
