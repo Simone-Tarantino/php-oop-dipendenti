@@ -68,7 +68,7 @@
       $this->contratto = $_contratto;
     }
 
-    public function getContratto()
+    public function getContract()
     {
       return $this->contratto;
     }
