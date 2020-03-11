@@ -7,9 +7,10 @@
     //private $cognome
     //private $dataDiNascita
     //private $ruolo
-    //private $contrattoId
+    //private $contratto
     //private $orarioLavorativo
     // __construct($_nome, $_cognome, $_tipoDiContratto)
+
 
     //responsabile extend dipendente
       //private $settore
