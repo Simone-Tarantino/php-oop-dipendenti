@@ -44,7 +44,7 @@
             return $this->cognome;
         }
 
-        public function setDateBirth($_dataDiNascita)
+        public function setBirthDate($_dataDiNascita)
         {
             if (strlen($_dataDiNascita)!== 10)
             {
@@ -53,7 +53,7 @@
         $this->dataDiNascita = $_dataDiNascita;
         }
 
-        public function getDateBirth()
+        public function getBirthDate()
         {
             return $this->dataDiNascita;
         }
